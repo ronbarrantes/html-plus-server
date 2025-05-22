@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
     <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <script defer src="https://unpkg.com/htmx.org@2.0.4"></script>
   </head>
   <body>
-    The index
+    <div>The index</div>
+    <button hx-post="/api" hx-swap="outerHTML">Click Me</button>
   </body>
 </html>
